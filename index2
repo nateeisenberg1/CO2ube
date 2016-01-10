@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CO2ube</title>
+<link rel="shortcut icon" href="http://www.clipartbest.com/cliparts/9iR/RG8/9iRRG84RT.png">
+</link>
+</head>
+<body>
+    <h1 style="color:green;">CO2UBE </h1>
+<h1 style="color:brown;"><strong>The Problem</strong><h1>
+    <img src="http://www.michellehenry.fr/choking_earth.gif"><img src="http://static01.nyt.com/images/2015/05/31/opinion/sunday/31HARRIS/31HARRIS-master675.jpg"><img src="http://localhost/image_floder/subfolder/logo.jpeg"></img>
+<p style="color:green;">Pollution has been a devestating pandemic across the globe during the era of technology. There seems to be no slowing down in the advancements, so how can we solve this issue to save mother nature?
+<br>
+
+</body>
+<style>
+    p{font-family: Georgia, 'Times New Roman', Times, serif;font-size: 50%}
+    body{background: white}
+    h1{font-size: 400%;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+    </style>
+<div class="tabs">
+    <ul class="tab-links">
+        <li class="active"><a href="#tab1">Facts About Pollution</a></li>
+        <li><a href="#tab2">The Solution to Pollution</a></li>
+        <li><a href="#tab3">Timeline of Pollution</a></li>
+        <li><a href="#tab4">About Us/Contact Page</a></li>
+    </ul>
+ 
+    <div class="tab-content">
+        <div id="tab1" class="tab active">
+            <style>
+                
+            p{color: lightseagreen}
+            <p>Facts About Pollution</p>
+            </style>
+            <p>Did you know that...?
+                <br>
+                <br>1.)Pollution effects 100 million people!
+                <br>2.)Over 1 million seabirds and 100,000 sea mammals are killed by pollution every year.
+                <br>3.)People who live in places with high levels of air pollutants have a 20% higher risk of death from lung cancer than people who live in less-polluted areas.
+                <br>4.)The Mississippi River carries an estimated 1.5 million metric tons of nitrogen pollution into the Gulf of Mexico each year, creating a "dead zone" in the Gulf each summer about the size of New Jersey.
+                <br>5.)About 40% of the lakes in America are too polluted for fishing, aquatic life, or swimming.
+                <br>6.)More than 3 million children under age five die annually from environmental factors.
+                <br>"11 Facts About Pollution." 11 Facts About Pollution. Do Something, n.d. Web. 09 Jan. 2016. https://www.dosomething.org/us/facts/11-facts-about-pollution.
+            </p>
+        </div>
+ 
+        <div id="tab2" class="tab">
+            
+            <p>The Solution to Pollution</p>
+            <p>The excess of carbon dioxide in the air is an essential cause to pollution in the air.   </p>
+        </div>
+ 
+        <div id="tab3" class="tab">
+            <p>Timeline of Pollution</p>
+            <p></p>
+        </div>
+ 
+        <div id="tab4" class="tab">
+            <p>About Us/Contact Page</p>
+            <p></p>
+        </div>
+    </div>
+</div>
+</html>
