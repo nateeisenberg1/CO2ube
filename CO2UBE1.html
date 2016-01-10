@@ -2,7 +2,10 @@
 <html >
   <head>
     <meta charset="UTF-8">
-    <title>CO2UBE</title>
+    <style>
+        title{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+    <title><strong>CO2UBE</strong></title>
+    </style>
     
     
     
@@ -22,9 +25,9 @@ html, body {
 }
 
 body {
-  font: 14px/1 'Copperplate Gothic Light';
-  color: black;
-  background: whitesmoke;
+  font: 14px/1 'Open Sans', sans-serif;
+  color: brown;
+  background: green;
 }
 
 h1 {
@@ -49,7 +52,7 @@ main {
 section {
   display: none;
   padding: 20px 0 0;
-  border-top: 1px solid blue;
+  border-top: 1px solid #ddd;
 }
 
 input {
@@ -62,12 +65,12 @@ label {
   padding: 15px 25px;
   font-weight: 600;
   text-align: center;
-  color:Black;
+  color: #bbb;
   border: 1px solid transparent;
 }
 
 label:before {
-  font-family: Copperplate 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: fontawesome;
   font-weight: normal;
   margin-right: 10px;
 }
@@ -89,23 +92,21 @@ label[for*='4']:before {
 }
 
 label:hover {
-  color: midnightblue;
+  color: blue;
   cursor: pointer;
 }
 
 input:checked + label {
-  color: whitesmoke;
-  border: 1px solid white;
-  border-top: 2px solid deepskyblue;
-  border-bottom: 1px solid black;
+  color: green;
+  border: 1px solid #ddd;
+  border-top: 2px solid green;
+  border-bottom: 1px solid #fff;
 }
 
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
-#tab4:checked ~ #content4
-#tab5:checked ~ #content5
- {
+#tab4:checked ~ #content4 {
   display: block;
 }
 
@@ -132,13 +133,10 @@ input:checked + label {
 
     
   </head>
-<link rel="stylesheet" type="text/css" href="CO2.css">
 
   <body>
 
-    <h1> CO2UBE
-      
-                </h1>
+    <h1>CO2UBE</h1>
 
 <main>
   
@@ -146,13 +144,13 @@ input:checked + label {
   <label for="tab1">Home</label>
     
   <input id="tab2" type="radio" name="tabs">
-  <label for="tab2">The Problem</label>
+  <label for="tab2">Facts About Pollution</label>
     
   <input id="tab3" type="radio" name="tabs">
-  <label for="tab3">Our Solution</label>
+  <label for="tab3">Reasons We Need to Stop Air Pollution</label>
     
   <input id="tab4" type="radio" name="tabs">
-  <label for="tab4">About Us</label>
+  <label for="tab4">Solution to Pollution</label>
     
   <section id="content1">
     <p>
@@ -163,6 +161,7 @@ input:checked + label {
     
   <section id="content2">
  <strong><h1>Did you know that...?</h1></strong>
+ <video src="http://www.sumanasinc.com/webcontent/animations/content/aciddeposition.html"></video>
                 <br>
                 <br>1.)Pollution effects 100 million people!
                 <br>
@@ -176,7 +175,6 @@ input:checked + label {
                 <br>
                 <br>6.)More than 3 million children under age five die annually from environmental factors.
                 <br>
-                <br>"11 Facts About Pollution." 11 Facts About Pollution. Do Something, n.d. Web. 09 Jan. 2016. https://www.dosomething.org/us/facts/11-facts-about-pollution.
             </p>
   </section>
     
@@ -217,7 +215,7 @@ input:checked + label {
     
   <section id="content4">
     <h1>Our Invention</h1>
-    <p> In order to solve the issue of excess carbon dioxide, we developed an idea that will revolutionize the way we go about the problem of air pollution. 
+    <p> In order to solve the issue of excess carbon dioxide, we developed an idea that will revolutionize the way we go about the problem of air pollution. Our innovation, given the name CO2UBE, emerges into the atmosphere, and is tasked with the mission to retrieve the maximum amount of CO2 it can. Not only is the  
       
   </section>
     
@@ -229,4 +227,3 @@ input:checked + label {
     
   </body>
 </html>
-
